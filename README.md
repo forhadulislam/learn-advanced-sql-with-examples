@@ -24,7 +24,7 @@ You can run the example files if you have Docker and Docker compose installed in
 
     docker-compose up
 
-Tested on: Dart VM version 2.7.2
+Tested on: pgSQL version 12.2
 
 ### How can the examples help
 
