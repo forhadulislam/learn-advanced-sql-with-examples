@@ -7,16 +7,20 @@ Here are the list of examples:
 
     1. Subquery
     2. Outer Join
-    2. Left Join
-    3. Inner Join
-    3. Full outer joins, coalesce, 
-    4. Cross apply, 
-    5. Outer apply
-    6. Intersect
-    7. Except and pivot.
-    8. Unions
-    9. Recursive/hierarchical queries 
-    10. Partitioning
+    3. Left Join
+    4. Inner Join
+    5. Full outer joins, coalesce
+    6. Cross apply
+    7. Outer apply
+    8. Intersect
+    10. Except and pivot
+    11. Unions
+    12. Recursive/hierarchical queries 
+    13. Partitioning
+    14. Transaction
+    15. Indexes
+    16. Stored Procedures
+    17. Functions
 
 ### How to run the examples
 
