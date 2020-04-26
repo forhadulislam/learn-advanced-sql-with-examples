@@ -27,6 +27,8 @@ Here are the list of examples:
 You can run the example files if you have Docker and Docker compose installed in your system. Here is an example of doing that - 
 
     docker-compose up
+    docker exec -i postgres_db psql -U postgres northwind < ./databases/northwind.sql
+
 
 Tested on: pgSQL version 12.2
 

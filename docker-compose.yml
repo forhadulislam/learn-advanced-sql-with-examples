@@ -7,9 +7,12 @@ services:
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+      POSTGRES_DB: ${POSTGRES_PASSWORD:-northwind}
+      DB_ANON_ROLE: ${DB_ANON_ROLE}
+      DB_SCHEMA: ${DB_SCHEMA}
       PGDATA: /data/postgres
     volumes:
-       - postgres:/data/postgres
+       #- ./databases/entrypoint.sh:/docker-entrypoint-initdb.d/init.sh
        - ./databases/:/docker-entrypoint-initdb.d/
     ports:
       - "65432:5432"
