@@ -21,6 +21,7 @@ Here are the list of examples:
     15. Indexes
     16. Stored Procedures
     17. Functions
+    **. Query Refactoring Techniques
 
 ### How to run the examples
 

@@ -12,7 +12,6 @@ services:
       DB_SCHEMA: ${DB_SCHEMA}
       PGDATA: /data/postgres
     volumes:
-       #- ./initdb/entrypoint.sh:/docker-entrypoint-initdb.d/init.sh
        - ./initdb/:/docker-entrypoint-initdb.d/
     ports:
       - "65432:5432"
@@ -29,7 +28,7 @@ services:
     volumes:
        - pgadmin:/root/.pgadmin
     ports:
-      - "${PGADMIN_PORT:-5050}:80"
+      - "${PGADMIN_PORT:-65431}:80"
     networks:
       - postgres
     restart: unless-stopped
