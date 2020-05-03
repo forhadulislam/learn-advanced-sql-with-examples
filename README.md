@@ -28,6 +28,7 @@ Here are the list of examples:
 Northwind database is the sample database used here for the examples. Originally created by Microsoft, it is used as a standard dataset for many tutorials on database for decades.
 
 The dataset contains the following:
+
     * Products: Product information
     * Suppliers: Suppliers and vendors of Northwind
     * Customers: Customers who buy products from Northwind
