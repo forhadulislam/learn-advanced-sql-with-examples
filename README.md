@@ -28,12 +28,12 @@ Here are the list of examples:
 Northwind database is the sample database used here for the examples. Originally created by Microsoft, it is used as a standard dataset for many tutorials on database for decades.
 
 The dataset contains the following:
-    Products: Product information
-    Suppliers: Suppliers and vendors of Northwind
-    Customers: Customers who buy products from Northwind
-    Employees: Employee details of Northwind traders
-    Shippers: The details of the shippers who ship the products from the traders to the end-customers
-    Orders and Order_Details: Sales Order transactions taking place between the customers & the company
+    * Products: Product information
+    * Suppliers: Suppliers and vendors of Northwind
+    * Customers: Customers who buy products from Northwind
+    * Employees: Employee details of Northwind traders
+    * Shippers: The details of the shippers who ship the products from the traders to the end-customers
+    * Orders and Order_Details: Sales Order transactions taking place between the customers & the company
 
 ### How to run the examples
 
